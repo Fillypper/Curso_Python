@@ -1,8 +1,7 @@
 #Faça um Programa que leia um vetor de 10 números reais e mostre-os na ordem inversa.
 
-lista = []
+lista = [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]
 
-for c in range(0, 10):
-    lista.append(c)
-    print(c)
 
+lista.sort(reverse=True)
+print(lista)
